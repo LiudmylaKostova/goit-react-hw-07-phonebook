@@ -1,0 +1,32 @@
+.ul {
+  width: 300px;
+  margin: 0 auto;
+}
+.li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.name {
+  margin-right: 20px;
+  font-weight: 500;
+}
+.number {
+  margin-right: 20px;
+  font-weight: 500;
+}
+.button {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid violet;
+  cursor: pointer;
+  color: blue;
+  font-weight: 600;
+  padding: 6px 10px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: violet;
+  color: white;
+}

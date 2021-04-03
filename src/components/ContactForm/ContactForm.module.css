@@ -1,0 +1,50 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px 30px;
+  text-align: center;
+  border: 2px solid violet;
+  border-radius: 5px;
+  box-shadow: 10px 0 15px rgb(150, 56, 150);
+  width: 300px;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  color: blue;
+  font-weight: 500;
+}
+.input {
+  margin-bottom: 20px;
+  padding: 5px;
+  height: 30px;
+  border: 1px solid violet;
+  border-radius: 5px;
+}
+.input:focus,
+.input:hover {
+  border: 2px solid violet;
+}
+.button {
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid violet;
+  cursor: pointer;
+  color: blue;
+  font-weight: 600;
+  padding: 12px 24px;
+}
+.button:hover,
+.button:focus {
+  background-color: violet;
+  color: white;
+}
+.button:hover:disabled,
+.button:focus:disabled {
+  color: blue;
+}
+.button:disabled {
+  background-color: lightslategrey;
+}
